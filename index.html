@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Login system</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo">Login System by Me</div>
+            </div>
+        </div>
+    </header>
+
+    <section class="interface">
+        <div class="container">
+            <div class="interface-wrapper">
+                <div class="add-user-block input-block">
+                    <label for="addinpt" id="add-user-label">
+                        Add user
+                    </label>
+                    <div class="add-container">
+                        <input type="text" class="add-user-input" name="addinpt">
+                    <label for="" class="add-user-id-label">
+                        ID
+                        <input type="text" class="add-user-id-input">
+                    </label>
+                    <button class="add-btn">Add</button>
+                    </div>  
+                </div>
+    
+                <div class="get-user-block input-block">
+                    <label for="" class="get-user-label">
+                        Get user by ID
+                        <input type="text" class="get-user-input">
+                    </label>
+                    <button class="get-btn">Get</button>
+                </div>
+    
+                <div class="delete-user-block input-block">
+                    <label for="" class="delete-user-label">
+                        delete user by ID
+                        <input type="text" class="delete-user-input">
+                    </label>
+                    <button class="delete-btn">Delete</button>
+                </div>
+    
+                <div class="find-user-by-name-block input-block">
+                    <label for="" class="find-user-label">
+                        find user by name
+                        <input type="text" class="find-user-input">
+                    </label>
+                    <button class="find-btn">Find</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="output">
+        <div class="container">
+            <div class="output-wrapper">
+                <div class="title">
+                    Output : 
+                </div>
+                <div class="output-from-script" id="output">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
